@@ -96,8 +96,8 @@ async def gagal_kirim_handler(client: Client, msg: types.Message):
 async def help_handler(client, msg):
     db = Database(msg.from_user.id)
     member = db.get_data_pelanggan()
-    pesan = "Silahkan gunakan format berikut untuk mengirim pesan\n"
-    pesan += '#Boy / #Girl untuk Mencari Pasangan, Teman , Partner FWB \n\nKhusus Penggunaan TELEGRAM premium \n#Ask untuk Bertanya \n#Story untuk Berbagi Cerita \n#Spill untuk Spill Masalah \n#Find untuk Mencari Teman\n'
+    pesan = "Silahkan gunakan format berikut untuk mengirim pesan menfess berisikan cari pacar, teman, fwb, cerita, curhat, ataw ingin kirim pantun dan puisi untuk seseorang bisa ke bot Menfess Executive, dengan format:\n"
+    pesan += '#Boy / #Girl \n\nKhusus Pengguna TELEGRAM premium \n#Ask \n#Story \n#Spill \n#Find\n'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
