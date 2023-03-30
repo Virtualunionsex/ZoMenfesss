@@ -19,7 +19,7 @@ async def talent_handler(client: Client, msg: types.Message):
                 top_id.append(uid)
         top_rate.sort(reverse=True)
         pesan = "<b>Daftar Talent Fwb</b>\n\n"
-        pesan += "Jika kalian minat mempromosikan diri anda menjadi talent di @DuniaVirtualMenfes & @DuniaVirtualMenfessbot silahkan pm @EROR_404_NF\n"
+        pesan += "Jika kalian minat mempromosikan diri sebagai singger ataw host bisa hub @azure_id\n"
         pesan += "No — Talent — Rating\n"
         index = 1
         for i in top_rate:
