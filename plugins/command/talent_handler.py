@@ -10,7 +10,7 @@ async def talent_handler(client: Client, msg: types.Message):
     top_rate = [] # total rate talent
     top_id = [] # id talent
     if len(talent) == 0:
-        return await msg.reply('<b>Saat ini tidak ada talent yang tersedia.Jika kalian minat mempromosikan diri anda menjadi talent di @DuniaVirtualMenfes & @DuniaVirtualMenfessbot silahkan pm @EROR_404_NF .</b>', True, enums.ParseMode.HTML)
+        return await msg.reply('<b>Saat ini tidak ada talent yang tersedia.Jika kalian minat mempromosikan diri sebagai singer ataw host di @executive_fams & @executive_girls silahkan pm @azure_id .</b>', True, enums.ParseMode.HTML)
     else:
         for uid in talent:
             rate = talent[str(uid)]['rate']
