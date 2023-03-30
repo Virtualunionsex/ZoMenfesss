@@ -36,7 +36,7 @@ biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "40"))
 biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#Boy #Girl #Ask #Find #Spill #Story").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#Boy", "#Girl", "#Ask", "#Find", "#Spill", "#Story").replace(" ", "|").lower()
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
