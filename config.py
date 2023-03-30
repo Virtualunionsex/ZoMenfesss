@@ -40,7 +40,7 @@ hastag = os.environ.get("HASTAG", "#Girl #Boy #Ask #Find Spill #Story").replace(
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess Executive, semua pesan yang kamu kirim akan masuk ke channel secara anonymous. ketik /help")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess Executive, semua pesan yang kamu kirim akan masuk ke channel secara anonymous, pilih tagger #Girl ataw #Boy jika akun anda bukan Telegram Premium. ketik /help")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, Silahkan ketik /help untuk menggunakan bot ini
