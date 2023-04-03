@@ -40,7 +40,7 @@ hastag = os.environ.get("HASTAG", "#Girl #Boy #Ask #Find Spill #Story").replace(
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu, dan gunakan hastag #Boy or #Girl untuk mengirim menfess")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess Executive, semua pesan yang kamu kirim akan masuk ke channel secara anonymous, \n\nGunakan Hastag #Boy ataw #Girl untuk mengirim menfess. \n\ketik /help info")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess Executive, semua pesan yang kamu kirim akan masuk ke channel secara anonymous, \n\nGunakan Hastag #Boy ataw #Girl untuk mengirim menfess. \n\nKetik /help info")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, Silahkan ketik /help untuk menggunakan bot ini
