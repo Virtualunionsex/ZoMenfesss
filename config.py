@@ -11,7 +11,7 @@ db_name = os.environ.get("DB_NAME", "Cluster0")
 # =========================================================== #
 
 channel_1 = int(os.environ.get("CHANNEL_1", "-1001569500029"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001729142523"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1001528080636"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1001729142523"))
 # =========================================================== #
 
@@ -39,8 +39,8 @@ biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 hastag = os.environ.get("HASTAG", "#Girl #Boy #Ask #Find Spill #Story").replace(" ", "|").lower()
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess Executive, semua pesan yang kamu kirim akan masuk ke channel secara anonymous, pilih tagger #Girl ataw #Boy jika akun anda bukan Telegram Premium. ketik /help")
+pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu, dan gunakan hastag #Boy or #Girl untuk mengirim menfess")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess Executive, semua pesan yang kamu kirim akan masuk ke channel secara anonymous, Gunakan Hashtag #Boy ataw #Girl. ketik /help")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, Silahkan ketik /help untuk menggunakan bot ini
