@@ -96,8 +96,8 @@ async def gagal_kirim_handler(client: Client, msg: types.Message):
 async def help_handler(client, msg):
     db = Database(msg.from_user.id)
     member = db.get_data_pelanggan()
-    pesan = "Untuk dapat mengirim pesan menfess berisikan cari pacar, teman, ingin cerita, curhat, ataw ingin kirim pantun dan puisi untuk seseorang bisa ke bot Menfess Executive, dengan format:\n\n"
-    pesan += '#Boy / #Girl (isi pesan)\n\n'
+    pesan = "Bagi anda yang ingin mencari fwb silahkan kirim menfess, dengan format:\n\n"
+    pesan += '#Boy / #Girl (isi pesan)\n\n#Carifwbindo'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
