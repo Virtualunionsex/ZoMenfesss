@@ -12,7 +12,7 @@ db_name = os.environ.get("DB_NAME", "Cluster0")
 
 channel_1 = int(os.environ.get("CHANNEL_1", "-1001060380553"))
 channel_2 = int(os.environ.get("CHANNEL_2", "-1001481870518"))
-channel_log = int(os.environ.get("CHANNEL_LOG", "-1001729142523"))
+channel_log = int(os.environ.get("CHANNEL_LOG", "-1001604453419"))
 # =========================================================== #
 
 id_admin = int(os.environ.get("ID_ADMIN", "1715348447"))
@@ -40,7 +40,7 @@ hastag = os.environ.get("HASTAG", "#carifwbindo").replace(" ", "|").lower()
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu, dan gunakan hastag #carifwbindo untuk mengirim menfess di @Carifwbindo")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess Executive, semua pesan yang kamu kirim akan masuk ke channel secara anonymous, \n\nGunakan Hastag #Boy ataw #Girl untuk mengirim menfess. \n\nKetik /help info")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess carifwbindo, semua pesan yang kamu kirim akan masuk ke channel secara anonymous, \n\nGunakan Hastag #carifwbindo untuk mengirim menfess. \n\nKetik /help info")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, Silahkan ketik /help untuk menggunakan bot ini
