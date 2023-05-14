@@ -39,8 +39,8 @@ biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 hastag = os.environ.get("HASTAG", "#carifwbindo").replace(" ", "|").lower()
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu, dan gunakan hastag #carifwbindo untuk mengirim menfess di @Carifwbindo")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess carifwbindo, semua pesan yang kamu kirim akan masuk ke channel secara anonymous, \n\nGunakan Hastag #carifwbindo untuk mengirim menfess. \n\nKetik /help info")
+pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu, dan gunakan hastag #boy ataw #girl untuk mengirim menfess di @Carifwbindo")
+start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot menfess carifwbindo, semua pesan yang kamu kirim akan masuk ke channel secara anonymous, \n\nGunakan Hastag #boy ataw #girl untuk mengirim menfess. \n\nKetik /help info")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, Silahkan ketik /help untuk menggunakan bot ini
