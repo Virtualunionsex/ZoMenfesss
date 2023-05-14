@@ -15,7 +15,7 @@ channel_2 = int(os.environ.get("CHANNEL_2", "-1001481870518"))
 channel_log = int(os.environ.get("CHANNEL_LOG", "-1001604453419"))
 # =========================================================== #
 
-id_admin = int(os.environ.get("ID_ADMIN", "1715348447 1963094846"))
+id_admin = int(os.environ.get("ID_ADMIN", "1715348447, 1963094846"))
 # =========================================================== #
 
 batas_kirim = int(os.environ.get("BATAS_KIRIM", "5"))
@@ -36,7 +36,7 @@ biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "40"))
 biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#carifwbindo").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#boy, #girl").replace(" ", "|").lower()
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu, dan gunakan hastag #boy ataw #girl untuk mengirim menfess di @Carifwbindo")
