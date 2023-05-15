@@ -60,7 +60,7 @@ class Bot(Client):
         data.append(self.id_bot)
         await self.set_bot_commands([
             BotCommand('status', '✨ check status'),
-BotCommand('talent', '💦 talent Singing'),
+BotCommand('talent', '💦 talent carifwbindo'),
 BotCommand('start', '/start'),
         ], BotCommandScopeAllPrivateChats())
         
