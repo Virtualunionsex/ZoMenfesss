@@ -60,8 +60,11 @@ class Bot(Client):
         data.append(self.id_bot)
         await self.set_bot_commands([
             BotCommand('status', '✨ check status'),
-BotCommand('talent', '💦 talent carifwbindo'),
+BotCommand('talent', '💦 close'),
 BotCommand('start', '/start'),
+BotCommand('help', '/help'),
+BotCommand('moans_girl', '/moans_girl'),   
+BotCommand('boyfriend_rent', '/boyfriend_rent'),
         ], BotCommandScopeAllPrivateChats())
         
         print('BOT TELAH AKTIF')
