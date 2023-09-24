@@ -39,7 +39,7 @@ biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 hastag = os.environ.get("HASTAG", "#Girl #Boy #Ask #Find #Spill #Story").replace(" ", "|").lower()
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu, dan wajib gunakan hastag #boy ataw #girl untuk mengirim pesan")
+pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu. Kemudian Start Ulang")
 start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot mutualan instagram, anda bisa mengirim pesan berupa ajakan mutualan instagram dengan mengirim link akun ig kalian pada bot, semua pesan yang kamu kirim akan masuk ke channel secara anonymous, \n\nWajib Gunakan Hastag #boy ataw #girl untuk mengirim menfess. \n\nKetik /help info")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
