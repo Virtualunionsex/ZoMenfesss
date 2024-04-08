@@ -1,18 +1,18 @@
 import os
 import logging
 
-api_id = int(os.environ.get("API_ID", "28094601"))
-api_hash = os.environ.get("API_HASH", "70756c6b7f3bf1d996ab7d157b270970")
-bot_token = os.environ.get("BOT_TOKEN", "6608316190:AAHXFVhN3mp_KYW8cuzPSnaJWyn9jckvAtQ")
+api_id = int(os.environ.get("API_ID", "22362456"))
+api_hash = os.environ.get("API_HASH", "8f1e661a440f2663ab0d3b52dd0d4cbc")
+bot_token = os.environ.get("BOT_TOKEN", "6920778894:AAGCzUsDOB09oL40laaF4TKcO5QlivVyliM")
 # =========================================================== #
 
 db_url = os.environ.get("DB_URL", "mongodb+srv://Menfess:Malik10_@cluster0.0q7u10d.mongodb.net/?retryWrites=true&w=majority")
 db_name = os.environ.get("DB_NAME", "Cluster0")
 # =========================================================== #
 
-channel_1 = int(os.environ.get("CHANNEL_1", "-1001941906623"))
-channel_2 = int(os.environ.get("CHANNEL_2", "-1001940308177"))
-channel_log = int(os.environ.get("CHANNEL_LOG", "-1001932029067"))
+channel_1 = int(os.environ.get("CHANNEL_1", "-1001907458581"))
+channel_2 = int(os.environ.get("CHANNEL_2", "-1002063775407"))
+channel_log = int(os.environ.get("CHANNEL_LOG", "-1001628283862"))
 # =========================================================== #
 
 id_admin = int(os.environ.get("ID_ADMIN", "5657257558"))
