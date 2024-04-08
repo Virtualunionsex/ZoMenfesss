@@ -36,11 +36,11 @@ biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "40"))
 biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#Girl #Boy #Ask #Find #Spill #Story").replace(" ", "|").lower()
+hastag = os.environ.get("HASTAG", "#Girl #Boy #Spill #Story").replace(" ", "|").lower()
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "Tidak dapat diakses harap join terlebih dahulu. Kemudian Start Ulang")
-start_msg = os.environ.get("START_MSG", "Hai {fullname} 🌱\n\nIni adalah bot mutualan instagram, anda bisa mengirim pesan berupa ajakan mutualan instagram dengan mengirim link akun ig kalian pada bot, semua pesan yang kamu kirim akan masuk ke channel secara anonymous, \n\nWajib Gunakan Hastag #boy ataw #girl untuk mengirim menfess. \n\nKetik /help info")
+pesan_join = os.environ.get("PESAN_JOIN", "<b>Tidak dapat diakses harap join terlebih dahulu. Kemudian Start Ulang</b>")
+start_msg = os.environ.get("START_MSG", "<b>Hai {fullname} 🌱\n\nIni adalah bot menfess cari teman virtual, anda bisa mengirim pesan secara anonymous, \n\nWajib pilih hastag sebagai berikut untuk mengirim pesan #boy ataw #girl untuk mengirim menfess. \n\nKetik /help info")
 
 gagalkirim_msg = os.environ.get("GAGAL_KIRIM", """
 {mention}, Silahkan ketik /help untuk menggunakan bot ini
