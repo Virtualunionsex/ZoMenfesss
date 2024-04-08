@@ -96,8 +96,8 @@ async def gagal_kirim_handler(client: Client, msg: types.Message):
 async def help_handler(client, msg):
     db = Database(msg.from_user.id)
     member = db.get_data_pelanggan()
-    pesan = "Silahkan kirim pesan anda di bot Mutualan instagram.\n"
-    pesan += 'Wajib menyertakan Hashtag #boy ataw #girl (isi pesan)\n\nby @MutualanIg_XBot'
+    pesan = "Silahkan kirim pesan anda di bot Menfess CSM.\n"
+    pesan += 'Wajib menyertakan Hashtag #boy #girl #story (isi pesan boleh menyertakan poto)\n\nby @cari_sahabat_mutualan1'
     if member.status == 'admin':
         pesan += '\nHanya Admin\n'
         pesan += '/tf_coin — transfer coin\n'
